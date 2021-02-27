@@ -19,12 +19,12 @@ document.addEventListener("DOMContentLoaded", function(event){
 	const calculator_btn = document.getElementById("calculator");
 	calculator_btn.addEventListener('click', function(){
 		//location.href = "https://www.google.com";
-		location.href = "test.html";
+		location.href = "calculator.html";
 	}, false);
 
 	const beGreen_btn = document.getElementById("beGreen");
 	beGreen.addEventListener('click', function(){
-		location.href = "test.html";
+		location.href = "tips.html";
 		//location.href = "https://www.google.com";
 	}, false);
 
