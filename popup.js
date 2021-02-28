@@ -7,14 +7,17 @@ document.addEventListener("DOMContentLoaded", function(event){
 	function keyDown(event) {;
 		    const key = (event.detail || event.which).toString();
 		    if (key == 83) {
-		      calculator.btn.click();
-		      //calculator();
+				location.href = "calculator.html"
+				//calculator.btn.click();
+		    	//calculator();
 		    }
 		    else if (key == 70) {
-		      beGreen_btn.click();
-		      //beGreen();
+				location.href = "tips.html"
+				//beGreen_btn.click();
+		    	//beGreen();
 		    }
 		}
+
 
 	const calculator_btn = document.getElementById("calculator");
 	calculator_btn.addEventListener('click', function(){
@@ -22,8 +25,8 @@ document.addEventListener("DOMContentLoaded", function(event){
 		location.href = "calculator.html";
 	}, false);
 
-	const beGreen_btn = document.getElementById("beGreen");
-	beGreen.addEventListener('click', function(){
+	const tips_btn = document.getElementById("tips");
+	tips_btn.addEventListener('click', function(){
 		location.href = "tips.html";
 		//location.href = "https://www.google.com";
 	}, false);
