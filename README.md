@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://cloud-l1d6y79cv-hack-club-bot.vercel.app/0icons8-green-earth-48.png" width="200" height="200" alt="globe with leaf">
+    <img src="https://cloud-95qizf7qd-hack-club-bot.vercel.app/0green_enrgy.png" width="200" height="200" alt="globe with leaf">
     <h1>BeGreen Calculator</h1>
     <p>
         <b>Making eco-friendly energy choices</b>
